@@ -233,7 +233,7 @@ export default function AnalyticsDashboard({ token = '', user = null, apiBase = 
       {data && !error && (
         <>
           <div className="mf-stat-grid">
-            <StatCard label="Total Users"   value={data.total}   sub="All registered accounts"    colour="#6366f1" />
+            <StatCard label="Total Users's"   value={data.total}   sub="All registered accounts"    colour="#6366f1" />
             <StatCard label="Admins"        value={data.admins}  sub="With admin privileges"      colour="#8b5cf6" />
             <StatCard label="Regular Users" value={data.regular} sub="Standard accounts"          colour="#10b981" />
             <StatCard
